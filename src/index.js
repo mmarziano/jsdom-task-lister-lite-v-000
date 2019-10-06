@@ -7,7 +7,8 @@ document.addEventListener("DOMContentLoaded", () => {
      e.preventDefault();
     let input = form.elements[0].value;
     let priority = form.elements[1].value;
-    tasks.append(input).append(priority)
+    tasks.append(input)
+    tasks.append(priority)
   
      
   });
