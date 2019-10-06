@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
-  let tasks = document.getElementById('#tasks');
+  let tasks = document.querySelector('#tasks');
   let form = document.querySelector('#create-task-form');
   
   form.addEventListener('submit', function(e){
