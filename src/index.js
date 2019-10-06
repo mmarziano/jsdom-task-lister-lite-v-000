@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
   form.addEventListener('submit', function(e){
      e.preventDefault();
-     console.log(form.elements[0])
+     console.log(form.elements)
     // let input = form.elements[0].value;
     // tasks.append(input)
      
